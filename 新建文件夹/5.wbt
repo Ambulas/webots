@@ -1,0 +1,1582 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  contactProperties [
+    ContactProperties {
+      coulombFriction [
+        1.5
+      ]
+    }
+  ]
+}
+PointLight {
+  attenuation 4 2 1
+  intensity 6
+  location 0 2 0
+}
+Viewpoint {
+  orientation -0.7551112200410325 0.6498991112042919 0.0862449454983582 0.5346535532677038
+  position 7.52214325892387 4.623738149513424 4.778135859114153
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+Wall {
+  translation 0.02 0 7.45
+  size 20 2.4 0.2
+}
+Wall {
+  translation -10.08 0 1.71042e-05
+  rotation 0 1 0 1.5707996938995747
+  name "wall(2)"
+  size 15 2.4 0.2
+}
+Wall {
+  translation 9.83 0 -1.62612e-05
+  rotation 0 1 0 1.5707996938995747
+  name "wall(3)"
+  size 15 2.4 0.2
+}
+Solid {
+  translation 8.73045018512769 -38463461.715971604 3.3188523806644774
+  rotation 0.9999999887677951 0.00013222944775187256 7.056757784043336e-05 1.9608758326155482
+  children [
+    DEF tt Shape {
+      appearance CementTiles {
+      }
+      geometry Box {
+        size 2.5 1 0.8
+      }
+    }
+  ]
+  boundingObject USE tt
+  physics Physics {
+  }
+}
+Wall {
+  translation 0.03 0 -5.04
+  rotation 0 1 0 1.5707996938995747
+  name "wall(4)"
+  size 5 2.4 0.2
+}
+Wall {
+  translation -6.75994 0 -2.63
+  rotation 0 1 0 -3.1415853071795863
+  name "wall(6)"
+  size 6.8 2.4 0.2
+}
+Wall {
+  translation -8.20005 0 1.1
+  rotation 0 1 0 -3.1415853071795863
+  name "wall(7)"
+  size 3.5 2.4 0.2
+}
+Wall {
+  translation -1.5 0 1.1
+  rotation 0 1 0 -3.1415853071795863
+  name "wall(11)"
+  size 5.6 2.4 0.2
+}
+Wall {
+  translation 7.9 0 2.68
+  rotation 3.23947e-08 -1 8.77262e-08 3.14159
+  name "wall(16)"
+  size 3.8 2.4 0.2
+}
+Wall {
+  translation 3.11995 0 1.1
+  rotation 0 1 0 -3.1415853071795863
+  name "wall(14)"
+  size 0.4 2.4 0.2
+}
+Wall {
+  translation 2.3 0 3.3
+  rotation 0 1 0 -3.1415853071795863
+  name "wall(17)"
+  size 1.9 2.4 0.2
+}
+Wall {
+  translation 1.6 0 1.1
+  rotation 0 1 0 -3.1415853071795863
+  name "wall(15)"
+  size 0.6 2.4 0.2
+}
+Wall {
+  translation -4.35005 0 4.3
+  rotation 0 -1 0 1.57079
+  name "wall(10)"
+  size 6.6 2.4 0.2
+}
+Wall {
+  translation 3.4 0 4.2
+  rotation 0 -1 0 1.57079
+  name "wall(13)"
+  size 6.3 2.4 0.2
+}
+Wall {
+  translation 1.2 0 5.3
+  rotation 0 -1 0 1.57079
+  name "wall(12)"
+  size 4.3 2.4 0.3
+}
+Wall {
+  translation -6.56005 0 0.4
+  rotation 0 -1 0 1.57079
+  name "wall(8)"
+  size 1.4 2.4 0.2
+}
+Wall {
+  translation -6.63005 0 -2.04001
+  rotation 0 -1 0 1.57079
+  name "wall(9)"
+}
+Wall {
+  translation -1.07005 0 -2.63
+  rotation 0 1 0 -3.1415853071795863
+  name "wall(5)"
+  size 2 2.4 0.2
+}
+Bed {
+  translation -8.7 0.01 -6.71
+  rotation 0 1 0 3.14159
+}
+Fridge {
+  translation 6.03 0 7.07
+  rotation 0 1 0 1.5708
+}
+Chair {
+  translation 8.080190121727167 -0.004502603302059982 -0.5305830000235003
+  rotation 0.0036485589318024565 0.9999933439866445 -3.599111258420518e-07 -3.1413953071351797
+  color 0.894118 0.447059 0
+  physics Physics {
+  }
+}
+Chair {
+  translation -3 -0.0045026 3.2
+  rotation 0.0036485589318024565 0.9999933439866445 -3.599111258420518e-07 -3.1413953071351797
+  name "chair(6)"
+  color 0.894118 0.447059 0
+  physics Physics {
+  }
+}
+Chair {
+  translation -4 -0.0045026 -6.1
+  rotation 0.0036478088719919632 0.9999866907751849 -0.0036485288717693185 1.57101
+  name "chair(7)"
+  color 0.894118 0.447059 0
+  physics Physics {
+  }
+}
+Chair {
+  translation 7.2 -0.00448906 0.659921
+  rotation 0.003711663618732039 0.9999862235088893 0.0037116499849375287 1.570813776617749
+  name "chair(2)"
+  color 0.894118 0.447059 0
+  physics Physics {
+  }
+}
+Chair {
+  translation 6.220000379879218 -0.004489055999999825 -1.5499210517594384
+  rotation 0.003711663618515851 0.9999862234506545 -0.003711665674730321 -1.5708095494520335
+  name "chair(3)"
+  color 0.894118 0.447059 0
+  physics Physics {
+  }
+}
+Chair {
+  translation 7.190000000094691 -0.004489056000000158 -1.5499212450960091
+  rotation 0.0037116636184919487 0.9999862234442396 -0.0037116674029959787 -1.5708090838214406
+  name "chair(5)"
+  color 0.894118 0.447059 0
+  physics Physics {
+  }
+}
+Chair {
+  translation 6.1899999996588875 -0.004489055999999603 0.679921245096014
+  rotation 0.0037116636187320847 0.9999862235088895 0.003711649984937569 1.5708137766177477
+  name "chair(4)"
+  color 0.894118 0.447059 0
+  physics Physics {
+  }
+}
+Table {
+  translation 6.7 -0.27 -0.53
+  size 1.8 1 1
+  frameThickness 0.1
+}
+Table {
+  translation -3.7 -0.27 3.4
+  rotation 0 1 0 1.5708
+  name "table(1)"
+  size 1.8 1 1
+  frameThickness 0.1
+}
+Table {
+  translation -4 -0.27 -6.9
+  rotation 0 1 0 -3.1415853071795863
+  name "table(2)"
+  size 1.8 1 1
+  frameThickness 0.1
+}
+Cabinet {
+  translation -9.38 0 -2.75
+  rotation 0 -1 0 3.14159
+  innerThickness 0.01
+  outerThickness 0.07
+  rowsHeights [
+    0.25, 0.2, 0.3, 0.5, 0.4
+  ]
+  columnsWidths [
+    0.6, 0.18, 0.17
+  ]
+  handle CabinetHandle {
+    handleColor 0.666667 0.333333 0
+  }
+  primaryAppearance PaintedWood {
+    colorOverride 0.666667 0.333333 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.666667 0.333333 0
+  }
+}
+Door {
+  translation 2.42 0 1.1
+  position -1.810519262771195e-08
+}
+Bed {
+  translation -3.1 0.02 6.41
+  rotation 0 1 0 3.14159
+  name "bed(1)"
+}
+Bed {
+  translation -8.85 0.01 6.42
+  rotation 0 1 0 3.14159
+  name "bed(2)"
+}
+Wall {
+  translation 0 0 -7.58
+  name "wall(1)"
+  size 20 2.3 0.2
+}
+Toilet {
+  translation -9.39 0 -0.799977
+  rotation 0 1 0 1.5708
+}
+Toilet {
+  translation 2.25 0 6.93001
+  rotation 0 1 0 -3.1415853071795863
+  name "toilet(1)"
+}
+Sofa {
+  translation 0.77 -0.009809999999999985 -5.73
+  rotation 7.891027579289155e-15 -1.1407489821260522e-14 -1 -0.0043851110224327906
+  physics Physics {
+    density -1
+    mass 100
+  }
+}
+Armchair {
+  translation 2.14 -9.809999999998986e-05 -4.31001
+  rotation 1.6656933628613298e-05 0.9999999997225475 1.6656872444467217e-05 1.5708000002774531
+  physics Physics {
+    density -1
+    mass 1
+  }
+}
+Armchair {
+  translation 2.149984610719384 -0.017222611303868096 -7.013229693703674
+  rotation -0.01346088645303114 0.9998187856617052 0.013461068822791938 -1.57098835749489
+  name "armchair(1)"
+  physics Physics {
+    density -1
+    mass 100
+  }
+}
+UnevenTerrain {
+  size 20 0 15
+  appearance Parquetry {
+  }
+}
+Robot {
+  translation 2.13 0.3 -1.1
+  rotation 0 -1 0 -1.5707953071795862
+  children [
+    DEF right_behind HingeJoint {
+      jointParameters HingeJointParameters {
+        anchor -0.31 -0.041 0.21
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+        }
+      ]
+      endPoint Solid {
+        translation -0.31 -0.24 0.21
+        rotation 0 0 1 1.57
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.9 1 1
+            }
+            geometry Cylinder {
+              height 0.03
+              radius 0.06
+            }
+          }
+        ]
+        name "wheel3"
+        boundingObject USE wheel
+        physics Physics {
+        }
+      }
+    }
+    DEF right_back HingeJoint {
+      jointParameters HingeJointParameters {
+        anchor -0.31 -0.041 -0.21
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+        }
+      ]
+      endPoint Solid {
+        translation -0.31 -0.24 -0.21
+        rotation 0 0 1 1.57
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.9 1 1
+            }
+            geometry Cylinder {
+              height 0.03
+              radius 0.06
+            }
+          }
+        ]
+        name "wheel4"
+        boundingObject USE wheel
+        physics Physics {
+        }
+      }
+    }
+    DEF left_behind HingeJoint {
+      jointParameters HingeJointParameters {
+        anchor 0.31 -0.041 0.21
+      }
+      device [
+        RotationalMotor {
+          name "wheel3"
+        }
+      ]
+      endPoint Solid {
+        translation 0.31 -0.24 0.21
+        rotation 0 0 1 1.57
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.9 1 1
+            }
+            geometry Cylinder {
+              height 0.03
+              radius 0.06
+            }
+          }
+        ]
+        name "wheel2"
+        boundingObject USE wheel
+        physics Physics {
+        }
+      }
+    }
+    DEF body Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.6 0.6 0.5
+      }
+    }
+    DEF left_back HingeJoint {
+      jointParameters HingeJointParameters {
+        anchor 0.31 -0.041 -0.21
+      }
+      device [
+        RotationalMotor {
+          name "wheel4"
+        }
+      ]
+      endPoint Solid {
+        translation 0.31 -0.24 -0.21
+        rotation 0 0 1 1.57
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.9 1 1
+            }
+            geometry Cylinder {
+              height 0.03
+              radius 0.06
+            }
+          }
+        ]
+        name "wheel1"
+        boundingObject USE wheel
+        physics Physics {
+        }
+      }
+    }
+  ]
+  name "robot(1)"
+  boundingObject USE body
+  physics Physics {
+  }
+  controller "go"
+}
+Door {
+  translation -2.7 0 -2.6
+  rotation 0 1 0 3.14159
+  name "door(1)"
+  size 1.3 2.4 0.2
+  position -1.810519262771195e-08
+}
+Door {
+  translation -6.6 0 -0.9
+  rotation 0 1 0 -1.5707953071795862
+  name "door(2)"
+  size 1.3 2.4 0.2
+  position -1.810519262771195e-08
+}
+Pedestrian {
+  translation 5.06 1.27 -2.38
+  rotation 0 -1 0 1.57079
+  enableBoundingObject TRUE
+}
+Solid {
+  translation 4.3 0.31 -3.42
+  rotation 0.5773509358560258 -0.577349935856137 -0.577349935856137 2.09439
+  children [
+    Transform {
+      children [
+        Solid {
+          translation -0.02 0.01 0
+          children [
+            Solid {
+              translation 0 0.01 0
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                    baseColor 0 0 0
+                  }
+                  geometry Cylinder {
+                    height 0.001
+                    radius 0.013
+                  }
+                }
+              ]
+            }
+            Shape {
+              appearance Plaster {
+              }
+              geometry Cylinder {
+                height 0.02
+                radius 0.015
+              }
+            }
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation 0.04 0 0
+      children [
+        Solid {
+          translation -0.02 0.01 0
+          children [
+            Solid {
+              translation 0 0.01 0
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                    baseColor 0 0 0
+                  }
+                  geometry Cylinder {
+                    height 0.001
+                    radius 0.013
+                  }
+                }
+              ]
+            }
+            Shape {
+              appearance Plaster {
+              }
+              geometry Cylinder {
+                height 0.02
+                radius 0.015
+              }
+            }
+          ]
+          name "solid(1)"
+        }
+      ]
+    }
+    Shape {
+      appearance Pcb {
+        IBLStrength 2
+      }
+      geometry Box {
+        size 0.1 0.01 0.05
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation 4.2 0 2.2
+  children [
+    Shape {
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(1)"
+}
+Robot {
+  translation 4.124683863111418 0.19860748594762703 -5.476840277839787
+  rotation -0.21250034184021768 -0.9751187086577938 0.06314355662573178 -0.05065106171151894
+  children [
+    DEF zhijia Transform {
+    }
+    Kinect {
+      translation -1.59216e-07 0.94 -0.24
+      rotation 1.7318098054302875e-07 -0.9914448886106625 -0.13052598533533916 -3.1415853071795863
+      maxRange 4
+    }
+    Compass {
+      rotation 0 -1 0 1.5708
+    }
+    DEF lf_taban Transform {
+      translation 0.15 0.0153072 0.376956
+      rotation 2.663910221101894e-09 0.8314690690111042 0.5555710461118432 3.14159
+      children [
+        Transform {
+          translation 0.05 0.07 0
+          children [
+            Solid {
+              children [
+                DEF dd Shape {
+                  appearance Leather {
+                    colorOverride 0.298039 0.298039 0.298039
+                    textureTransform TextureTransform {
+                      scale 10 10
+                    }
+                  }
+                  geometry Box {
+                    size 0.1 0.18 0.01
+                  }
+                }
+              ]
+              name "solid(6)"
+              boundingObject USE dd
+              physics Physics {
+                density -1
+                mass 1
+              }
+            }
+          ]
+        }
+        Shape {
+          appearance Leather {
+            colorOverride 0.298039 0.298039 0.298039
+            textureTransform TextureTransform {
+              scale 10 10
+            }
+          }
+          geometry Cylinder {
+            height 0.15
+            radius 0.01
+          }
+        }
+      ]
+    }
+    DEF rt_taban Transform {
+      translation -0.18 0.0153072 0.376956
+      rotation 1 0 0 1.1780996938995747
+      children [
+        Transform {
+          translation 0.05 0.07 0
+          children [
+            Solid {
+              children [
+                DEF dd Shape {
+                  appearance Leather {
+                    colorOverride 0.298039 0.298039 0.298039
+                    textureTransform TextureTransform {
+                      scale 10 10
+                    }
+                  }
+                  geometry Box {
+                    size 0.1 0.18 0.01
+                  }
+                }
+              ]
+              name "solid(7)"
+              boundingObject USE dd
+              physics Physics {
+                density -1
+                mass 1
+              }
+            }
+          ]
+        }
+        Shape {
+          appearance Leather {
+            colorOverride 0.298039 0.298039 0.298039
+            textureTransform TextureTransform {
+              scale 10 10
+            }
+          }
+          geometry Cylinder {
+            height 0.15
+            radius 0.01
+          }
+        }
+      ]
+    }
+    DEF lf_hinge HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.006010877585838121
+        axis 0 1 0
+        anchor 0.25 -0.06 0.24
+      }
+      endPoint Solid {
+        translation 0.25 -0.06 0.24
+        rotation 0 1 0 0.006010877585825785
+        children [
+          Transform {
+            translation -0.02 -0.0353553 -0.0229291
+            rotation 1 0 0 -0.785395307179586
+            children [
+              Shape {
+                appearance CorrugatedPvc {
+                }
+                geometry Box {
+                  size 0.01 0.02 0.09
+                }
+              }
+            ]
+          }
+          Transform {
+            translation 0.02 -0.0353553 -0.0229291
+            rotation 1 0 0 -0.785395307179586
+            children [
+              Shape {
+                appearance CorrugatedPvc {
+                }
+                geometry Box {
+                  size 0.01 0.02 0.09
+                }
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.04754925782953115
+              anchor 0.02 -0.07 -0.05
+            }
+            endPoint Solid {
+              translation -3.122502256758253e-17 -0.07 -0.05
+              rotation 0.023765610907427546 -0.023765710692643886 0.9994350337733163 1.5713628977259342
+              children [
+                DEF wheel Shape {
+                  appearance TireRubber {
+                    textureTransform TextureTransform {
+                      rotation 1
+                      scale 5 21
+                      translation 5 24
+                    }
+                  }
+                  geometry Cylinder {
+                    height 0.005
+                    radius 0.075
+                  }
+                }
+              ]
+              boundingObject USE wheel
+              physics Physics {
+                density -1
+                mass 1
+              }
+            }
+          }
+          DEF lf_hinge Shape {
+            appearance PBRAppearance {
+              baseColor 0 0 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.01
+            }
+          }
+        ]
+        name "wheel1"
+        boundingObject USE lf_hinge
+        physics Physics {
+          density -1
+          mass 1
+        }
+      }
+    }
+    DEF rt_hinge HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.0061172369573032235
+        axis 0 1 0
+        anchor -0.25 -0.06 0.24
+      }
+      endPoint Solid {
+        translation -0.25 -0.06 0.24
+        rotation 0 0.9999999999999999 0 0.006117236957290421
+        children [
+          Transform {
+            translation 0.02 -0.0353553 -0.0229291
+            rotation 1 0 0 -0.785395307179586
+            children [
+              Shape {
+                appearance CorrugatedPvc {
+                }
+                geometry Box {
+                  size 0.01 0.02 0.09
+                }
+              }
+            ]
+          }
+          Transform {
+            translation -0.02 -0.0353553 -0.0229291
+            rotation 1 0 0 -0.785395307179586
+            children [
+              Shape {
+                appearance CorrugatedPvc {
+                }
+                geometry Box {
+                  size 0.01 0.02 0.09
+                }
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.033254295215389015
+              anchor 0.02 -0.07 -0.05
+            }
+            endPoint Solid {
+              translation 5.494480000006741e-07 -0.07 -0.05
+              rotation 0.016624021830789305 -0.01662413250622212 0.9997236018603266 1.571073574534834
+              children [
+                DEF wheel Shape {
+                  appearance TireRubber {
+                    textureTransform TextureTransform {
+                      rotation 1
+                      scale 5 21
+                      translation 5 24
+                    }
+                  }
+                  geometry Cylinder {
+                    height 0.005
+                    radius 0.075
+                  }
+                }
+              ]
+              boundingObject USE wheel
+              physics Physics {
+                density -1
+                mass 1
+              }
+            }
+          }
+          DEF lf_hinge Shape {
+            appearance PBRAppearance {
+              baseColor 0 0 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.01
+            }
+          }
+        ]
+        name "wheel2"
+        boundingObject USE lf_hinge
+        physics Physics {
+          density -1
+          mass 1
+        }
+      }
+    }
+    InertialUnit {
+      translation 8.81572e-07 0.25 -0.24
+      rotation 0 -1 0 1.5708
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Box {
+            size 0.1 0.1 0.1
+          }
+        }
+      ]
+      name "imu"
+      xAxis FALSE
+      zAxis FALSE
+    }
+    Display {
+      width 60
+      height 50
+    }
+    Transform {
+      translation -0.2 0.15 0.24
+      children [
+        Shape {
+          appearance Leather {
+            colorOverride 1 1 0.498039
+            textureTransform TextureTransform {
+              scale 10 10
+            }
+            IBLStrength 12
+          }
+          geometry Box {
+            size 0.05 0.2 0.05
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0.2 0.15 0.24
+      children [
+        Shape {
+          appearance Leather {
+            colorOverride 1 1 0.498039
+            textureTransform TextureTransform {
+              scale 10 10
+            }
+            IBLStrength 12
+          }
+          geometry Box {
+            size 0.05 0.2 0.05
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0.22 0.33 0.07
+      children [
+        Shape {
+          appearance Leather {
+            colorOverride 1 1 0.498039
+            textureTransform TextureTransform {
+              scale 10 10
+            }
+            IBLStrength 12
+          }
+          geometry Box {
+            size 0.05 0.3 0.05
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0.22 0.48 -0.08
+      children [
+        Shape {
+          appearance Leather {
+            colorOverride 1 1 0.498039
+            textureTransform TextureTransform {
+              scale 10 10
+            }
+            IBLStrength 12
+          }
+          geometry Box {
+            size 0.05 0.1 0.4
+          }
+        }
+      ]
+    }
+    Transform {
+      translation -0.22 0.47 -0.08
+      children [
+        Shape {
+          appearance Leather {
+            colorOverride 1 1 0.498039
+            textureTransform TextureTransform {
+              scale 10 10
+            }
+            IBLStrength 12
+          }
+          geometry Box {
+            size 0.05 0.1 0.4
+          }
+        }
+      ]
+    }
+    Transform {
+      translation -0.22 0.34 0.07
+      children [
+        Shape {
+          appearance Leather {
+            colorOverride 1 1 0.498039
+            textureTransform TextureTransform {
+              scale 10 10
+            }
+            IBLStrength 12
+          }
+          geometry Box {
+            size 0.05 0.2 0.05
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.22 0
+      children [
+        Solid {
+          children [
+            DEF zuo Shape {
+              appearance Leather {
+                colorOverride 1 1 0.498039
+                textureTransform TextureTransform {
+                  scale 10 10
+                }
+                IBLStrength 12
+              }
+              geometry Box {
+                size 0.5 0.1 0.6
+              }
+            }
+          ]
+          name "solid(5)"
+          boundingObject USE zuo
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.49 -0.26
+      children [
+        Solid {
+          children [
+            DEF back Shape {
+              appearance Leather {
+                colorOverride 1 1 0.498039
+                textureTransform TextureTransform {
+                  scale 10 10
+                }
+                IBLStrength 12
+              }
+              geometry Box {
+                size 0.5 0.9 0.1
+              }
+            }
+          ]
+          name "solid(4)"
+          boundingObject USE back
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    GPS {
+      translation 0 0.1 0
+      children [
+        Solid {
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cone {
+                bottomRadius 0.05
+                height 0.1
+              }
+            }
+          ]
+        }
+      ]
+    }
+    DistanceSensor {
+      translation -0.214629 0 0.299397
+      rotation 0 1 0 -1.5707953071795862
+      children [
+        DEF ds_right Shape {
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+      name "ds_right"
+      boundingObject USE ds_right
+      physics Physics {
+        density -1
+        mass 1
+      }
+      lookupTable [
+        0 1000 0
+        0.5 200 0.1
+        1 100 0.1
+        1.5 40 0
+        2 30 0
+      ]
+      type "sonar"
+      numberOfRays 8
+      aperture 0.16
+    }
+    DistanceSensor {
+      translation 0.224288 0 0.296809
+      rotation 0 -1 0 1.309
+      children [
+        DEF ds_right Shape {
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+      name "ds_left"
+      boundingObject USE ds_right
+      physics Physics {
+        density -1
+        mass 1
+      }
+      lookupTable [
+        0 1000 0
+        0.5 200 0.1
+        1 100 0.1
+        1.5 40 0
+        2 30 0
+      ]
+      type "sonar"
+      numberOfRays 8
+      aperture 0.16
+    }
+    DistanceSensor {
+      translation 0.161668 0 0.311629
+      rotation 0 -1 0 0.785396
+      children [
+        DEF ds_right Shape {
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+      name "ds_left_1"
+      boundingObject USE ds_right
+      physics Physics {
+        density -1
+        mass 1
+      }
+      lookupTable [
+        0 1000 0
+        0.5 200 0.1
+        1 100 0.1
+        1.5 40 0
+        2 30 0
+      ]
+      type "sonar"
+      numberOfRays 8
+      aperture 0.16
+    }
+    DEF left_back HingeJoint {
+      jointParameters HingeJointParameters {
+        position -4.472976959860672e-08
+        anchor 0.28 -0.073 -0.2
+      }
+      device [
+        RotationalMotor {
+          name "motor3"
+          maxVelocity 15
+        }
+      ]
+      endPoint Solid {
+        translation 0.28 -0.073 -0.2
+        rotation 0.0012410299338280523 -0.001241033897075129 -0.9999984598385987 4.712384073251978
+        children [
+          DEF wheel Shape {
+            appearance TireRubber {
+              textureTransform TextureTransform {
+                rotation 42
+                scale 0 0
+              }
+              IBLStrength 2
+              type "bike"
+            }
+            geometry Cylinder {
+              height 0.05
+              radius 0.13
+            }
+          }
+        ]
+        name "wheel3"
+        boundingObject USE wheel
+        physics Physics {
+          density -1
+          mass 1
+        }
+      }
+    }
+    DEF right_back HingeJoint {
+      jointParameters HingeJointParameters {
+        position 9.031315058503571e-08
+        anchor -0.28 -0.073 -0.2
+      }
+      device [
+        RotationalMotor {
+          name "motor4"
+          maxVelocity 15
+        }
+      ]
+      endPoint Solid {
+        translation -0.28 -0.073 -0.2
+        rotation 0.0005265767060396228 -0.0005265782809403883 -0.9999997227161049 4.712385336101226
+        children [
+          DEF wheel Shape {
+            appearance TireRubber {
+              textureTransform TextureTransform {
+                rotation 42
+                scale 0 0
+              }
+              IBLStrength 2
+              type "bike"
+            }
+            geometry Cylinder {
+              height 0.05
+              radius 0.13
+            }
+          }
+        ]
+        name "wheel4"
+        boundingObject USE wheel
+        physics Physics {
+          density -1
+          mass 1
+        }
+      }
+    }
+    DEF body Shape {
+      appearance Leather {
+        colorOverride 1 1 0.498039
+        textureTransform TextureTransform {
+          scale 10 10
+        }
+        IBLStrength 12
+      }
+      geometry Box {
+        size 0.5 0.1 0.6
+      }
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+    density -1
+    mass 1
+  }
+  controller "my_controller"
+}
+DEF Humman Solid {
+  translation 4.123303927816382 0.7186994181456385 -5.579584047874102
+  rotation 0.9897047181566208 -0.13298658696568086 -0.052906885617501814 -0.22079335223922172
+  children [
+    DEF rt_leg Transform {
+      children [
+        Solid {
+          translation -0.0996593 -0.229576 0.176128
+          rotation -1 -4.29919e-07 -7.83179e-08 -1.7017053071795862
+          children [
+            DEF rt_leg Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Cylinder {
+                height 0.4
+                radius 0.04
+              }
+            }
+          ]
+          name "solid(2)"
+          boundingObject USE rt_leg
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    DEF rt_arm_xiao Transform {
+      translation 0 0.2 0
+      children [
+        Solid {
+          translation -0.209659 -0.176251 0.041941
+          rotation 1 3.6511e-07 -2.98616e-08 2.2253
+          children [
+            DEF rt_leg Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Cylinder {
+                height 0.2
+                radius 0.03
+              }
+            }
+          ]
+          name "solid(8)"
+          boundingObject USE rt_leg
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    DEF rt_arm_xiao Transform {
+      translation 0.43 0.2 0
+      children [
+        Solid {
+          translation -0.209659 -0.176251 0.041941
+          rotation 1 3.6511e-07 -2.98616e-08 2.2253
+          children [
+            DEF rt_leg Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Cylinder {
+                height 0.2
+                radius 0.03
+              }
+            }
+          ]
+          name "solid(9)"
+          boundingObject USE rt_leg
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    DEF lf_leg Transform {
+      translation 0.15 0 0
+      children [
+        Solid {
+          translation -0.0417035 -0.228224 0.165864
+          rotation 1 5.7759e-07 4.66287e-07 1.7017
+          children [
+            DEF rt_leg Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Cylinder {
+                height 0.4
+                radius 0.04
+              }
+            }
+          ]
+          name "solid(3)"
+          boundingObject USE rt_leg
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    DEF lf_leg_xiao Transform {
+      translation 0.16 -0.11 0.31
+      children [
+        Solid {
+          translation -0.0517035 -0.29358 0.0500802
+          rotation 1 5.56149e-07 -5.92991e-08 -3.0106853071795863
+          children [
+            Transform {
+              translation 0 0.157753 -0.0370711
+              rotation 1 0 0 -0.261795307179586
+              children [
+                Solid {
+                  children [
+                    DEF rt_leg111 Shape {
+                      appearance ShinyLeather {
+                        colorOverride 1 0.666667 0.498039
+                        textureTransform TextureTransform {
+                          scale 0 0
+                        }
+                        IBLStrength 10
+                      }
+                      geometry Box {
+                        size 0.1 0.05 0.13
+                      }
+                    }
+                  ]
+                  boundingObject USE rt_leg111
+                  physics Physics {
+                    density -1
+                    mass 1
+                  }
+                }
+              ]
+            }
+            DEF rt_leg Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Cylinder {
+                height 0.28
+                radius 0.04
+              }
+            }
+            DEF rt_leg Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Cylinder {
+                height 0.28
+                radius 0.04
+              }
+            }
+          ]
+          name "solid(4)"
+          boundingObject USE rt_leg
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    DEF lf_leg_xiao Transform {
+      translation -0.05 -0.12 0.31
+      children [
+        DEF lf_leg_xiao Transform {
+          translation 0.16 -0.11 0.31
+          children [
+            Solid {
+              translation -0.241703 -0.173813 -0.24682
+              rotation 1 5.56149e-07 -5.92991e-08 -3.0106853071795863
+              children [
+                Transform {
+                  translation 0 0.157753 -0.0370711
+                  rotation 1 0 0 -0.261795307179586
+                  children [
+                    Solid {
+                      children [
+                        DEF rt_leg222 Shape {
+                          appearance ShinyLeather {
+                            colorOverride 1 0.666667 0.498039
+                            textureTransform TextureTransform {
+                              scale 0 0
+                            }
+                            IBLStrength 10
+                          }
+                          geometry Box {
+                            size 0.1 0.05 0.13
+                          }
+                        }
+                      ]
+                      boundingObject USE rt_leg222
+                      physics Physics {
+                        density -1
+                        mass 1
+                      }
+                    }
+                  ]
+                }
+                DEF rt_leg Shape {
+                  appearance ShinyLeather {
+                    colorOverride 1 0.666667 0.498039
+                    textureTransform TextureTransform {
+                      scale 0 0
+                    }
+                    IBLStrength 10
+                  }
+                  geometry Cylinder {
+                    height 0.28
+                    radius 0.04
+                  }
+                }
+                DEF rt_leg Shape {
+                  appearance ShinyLeather {
+                    colorOverride 1 0.666667 0.498039
+                    textureTransform TextureTransform {
+                      scale 0 0
+                    }
+                    IBLStrength 10
+                  }
+                  geometry Cylinder {
+                    height 0.28
+                    radius 0.04
+                  }
+                }
+              ]
+              name "solid(5)"
+              boundingObject USE rt_leg
+              physics Physics {
+                density -1
+                mass 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+    DEF pigu Transform {
+      translation -1.68355e-07 -0.21 0
+      rotation 0 0 1 1.5707996938995747
+      children [
+        DEF pg Solid {
+          children [
+            DEF pigu Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Cylinder {
+                height 0.15
+                radius 0.05
+              }
+            }
+          ]
+          name "solid(1)"
+          boundingObject USE pigu
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    DEF rt_arm Transform {
+      translation -0.110001 0.08 0
+      rotation 0 0 1 1.5707996938995747
+      children [
+        DEF pg Solid {
+          translation 0 0.01 0
+          children [
+            DEF pigu Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Cylinder {
+                height 0.23
+                radius 0.03
+              }
+            }
+          ]
+          name "solid(6)"
+          boundingObject USE pigu
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    DEF rt_arm Transform {
+      translation 0.089999 0.08 0
+      rotation 0 0 1 1.5707996938995747
+      children [
+        DEF pg Solid {
+          translation 0 -0.02 0
+          children [
+            DEF pigu Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Cylinder {
+                height 0.23
+                radius 0.03
+              }
+            }
+          ]
+          name "solid(7)"
+          boundingObject USE pigu
+          physics Physics {
+            density -1
+            mass 1
+          }
+        }
+      ]
+    }
+    DEF head Transform {
+      children [
+        DEF Head Solid {
+          translation 0 0.29 0
+          children [
+            DEF head Shape {
+              appearance ShinyLeather {
+                colorOverride 1 0.666667 0.498039
+                textureTransform TextureTransform {
+                  scale 0 0
+                }
+                IBLStrength 10
+              }
+              geometry Sphere {
+                radius 0.12
+              }
+            }
+          ]
+        }
+      ]
+    }
+    DEF body Shape {
+      appearance ShinyLeather {
+        colorOverride 1 0.666667 0.498039
+        textureTransform TextureTransform {
+          scale 0 0
+        }
+        IBLStrength 10
+      }
+      geometry Cylinder {
+        height 0.4
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE body
+  physics Physics {
+    density -1
+    mass 1
+  }
+}
